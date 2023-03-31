@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Marksheet</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .header h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+      }
+      .info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      .info p {
+        margin: 0;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+      }
+      th {
+        background-color: #eee;
+      }
+      .total {
+        text-align: right;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Mark Sheet</h1>
+      </div>
+      <div class="info">
+        <p>Name: John Doe</p>
+        <p>Roll Number: 123456</p>
+      </div>
+      <div class="info">
+        <p>Address: 123 Main St.</p>
+        <p>Date: March 10, 2023</p>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>English</td>
+            <td>85</td>
+          </tr>
+          <tr>
+            <td>Mathematics</td>
+            <td>92</td>
+          </tr>
+          <tr>
+            <td>Science</td>
+            <td>88</td>
+          </tr>
+          <tr>
+            <td>Social Studies</td>
+            <td>90</td>
+          </tr>
+          <tr>
+            <td>Computer Science</td>
+            <td>95</td>
+          </tr>
+          <tr class="total">
+            <td>Total</td>
+            <td>450</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
